@@ -1,10 +1,3 @@
-"""storage.py - penyimpanan data permanen ke file CSV.
-
-Semua operasi file memakai context manager `with open(...)`.
-Mode yang dipakai:
-  'r' = membaca produk/transaksi,   'w' = menulis ulang produk,
-  'a' = menambah transaksi baru,    'x' = membuat file baru (gagal bila sudah ada).
-"""
 import csv
 import os
 
